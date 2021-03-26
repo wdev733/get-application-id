@@ -1,0 +1,20 @@
+[
+  {
+    "constant": false,
+    "inputs": [{ "name": "hash", "type": "bytes32" }],
+    "name": "apply",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "email", "type": "string" }],
+    "name": "getApplicationID",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
